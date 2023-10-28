@@ -103,6 +103,25 @@ setInner("pustakaArticle7",
         <p class="text-justify px-6 pb-5">${jsonPustaka.p7_whatis}</p>
         <p class="text-justify px-6 pb-5">${jsonPustaka.p7_whatis}</p>
         </div>`)
+setInner("pustakaArticle8",
+        `<h5 class="text-2xl pl-11 font-bold">${jsonPustaka.pustaka8}</h5>
+        <div class="space-y-2.5">
+        <p class="text-justify px-6 pb-5">${jsonPustaka.p8_whatis}</p>
+        <p class="text-justify px-6 pb-5">${jsonPustaka.p8_pro1}</p>
+        <p class="text-justify px-6 pb-5">${jsonPustaka.p8_pro2}</p>
+        <p class="text-justify px-6 pb-5">${jsonPustaka.p8_pro3}</p>
+        <p class="text-justify px-6 pb-5">${jsonPustaka.p8_pro4}</p>
+        <p class="text-justify px-6 pb-5">${jsonPustaka.p8_pro5}</p>
+        <p class="text-justify px-6 pb-5">${jsonPustaka.p8_pro6}</p>
+        <p class="text-justify px-6 pb-5">${jsonPustaka.p8_pro7}</p>
+        <p class="text-justify px-6 pb-5">${jsonPustaka.p8_pro8}</p>
+        <p class="text-justify px-6 pb-5">${jsonPustaka.p8_pro9}</p>
+        </div>`)
+setInner("pustakaArticle9",
+        `<h5 class="text-2xl pl-11 font-bold">${jsonPustaka.pustaka9}</h5>
+        <div class="space-y-2.5">
+        <p class="text-justify px-6 pb-5">${jsonPustaka.p9_whatis}</p>
+        </div>`)
 
 // Daftar Pustaka
 
@@ -140,6 +159,12 @@ setInner("dafpusList", `<h3 class="text-center text-2xl font-bold text-center px
         </p>
         <p class="text-justify px-6 pb-5">
         ${jsonPustaka.dafpus11}
+        </p>
+        <p class="text-justify px-6 pb-5">
+        ${jsonPustaka.dafpus12}
+        </p>
+        <p class="text-justify px-6 pb-5">
+        ${jsonPustaka.dafpus13}
         </p>
         </div>`
         )
